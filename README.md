@@ -2,17 +2,6 @@
 
 Proyek ini bertujuan untuk melakukan analisis data penyewaan sepeda dan menyajikan hasil analisis dalam bentuk dashboard interaktif menggunakan Streamlit.
 
-## Daftar Isi
-
-- [Proyek Analisis Data](#proyek-analisis-data)
-  - [Daftar Isi](#daftar-isi)
-  - [Setup Environment](#setup-environment)
-  - [Streamlit](#streamlit)
-  - [Fitur](#fitur)
-  - [Kontribusi](#kontribusi)
-  - [Lisensi](#lisensi)
-  - [Kontak](#kontak)
-
 ## Setup Environment
 
 Untuk memulai proyek ini, Anda perlu mengatur lingkungan pengembangan dengan menggunakan conda dan pip. Berikut adalah langkah-langkahnya:
@@ -26,3 +15,9 @@ conda activate main-ds
 
 # Instal dependensi yang diperlukan
 pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
+```
+
+## Streamlit
+```bash
+streamlit run dashboard.py
+```
